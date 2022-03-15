@@ -1,541 +1,541 @@
-                * {
-                margin: 0px;
-                padding: 0px;
-            }
-            
-            .menu ul {
-                list-style: none;
-                padding-left: 0px;
-                display: flex;
-                justify-content: flex-end;
-                pad: 10px;
-            }
-            
-            body nav {
-                display: flex;
-                justify-content: space-between;
-                background-color: burlywood;
-                position: sticky;
-                top: 0%;
-            }
-            
-            body .menu ul a {
-                text-decoration: none;
-                display: flex;
-                pad: 40px;
-                color: rgb(0, 26, 173);
-                margin-right: 20px;
-                margin-top: 12px;
-                border: 2px solid white;
-                background-color: white;
-                border-radius: 5px;
-            }
-            
-            body .menu ul a:hover {
-                color: burlywood;
-            }
-            
-            .logo {
-                width: 30;
-                height: 50px;
-                padding-left: 20px;
-                margin-top: 2px;
-                margin-bottom: 2px;
-            }
-            
-            .ban {
-                display: flex;
-                flex-direction: row;
-                height: 800px;
-                background-image: url("img/accueil.jpg");
-                background-repeat: no-repeat;
-                background-size: cover;
-                flex-wrap: wrap;
-            }
-            
-            section {
-                background-size: cover;
-            }
-            /*BOUTIQUE 1*/
-            
-            section h1 {
-                font-family: 'Fjalla One', sans-serif;
-                text-align: center;
-                color: burlywood;
-                font-size: 45px;
-                margin-top: 35px;
-            }
-            
-            .btn1 {
-                background-color: #e0cd30;
-                border-radius: 10px;
-                height: 30px;
-                text-decoration: none;
-                padding: 8px;
-                color: rgb(9, 9, 161);
-            }
-            
-            .btn2 {
-                background-color: #e0cd30;
-                border-radius: 10px;
-                height: 30px;
-                text-decoration: none;
-                padding: 8px;
-                color: rgb(9, 9, 161);
-            }
-            
-            .btn3 {
-                background-color: #e0cd30;
-                border-radius: 10px;
-                height: 30px;
-                text-decoration: none;
-                padding: 8px;
-                color: rgb(9, 9, 161);
-            }
-            
-            .btn4 {
-                background-color: #e0cd30;
-                border-radius: 10px;
-                height: 30px;
-                text-decoration: none;
-                padding: 8px;
-                color: rgb(9, 9, 161);
-            }
-            
-            .btn5 {
-                background-color: #e0cd30;
-                border-radius: 10px;
-                height: 30px;
-                text-decoration: none;
-                padding: 8px;
-                color: rgb(9, 9, 161);
-            }
-            
-            .group1 a:hover {
-                color: rgb(117, 68, 3);
-            }
-            
-            .group2 a:hover {
-                color: rgb(117, 68, 3);
-            }
-            
-            .group3 a:hover {
-                color: rgb(117, 68, 3);
-            }
-            
-            .group4 a:hover {
-                color: rgb(117, 68, 3);
-            }
-            
-            .group5 a:hover {
-                color: rgb(117, 68, 3);
-            }
-            
-            .boutique .bout1 {
-                width: 290px;
-                background-image: url("img/product0.jpeg");
-                border: 2px solid burlywood;
-                background-position: bottom;
-                /*Pour bourger l'image du bacground*/
-                width: 200px;
-                height: 375px;
-                background-repeat: no-repeat;
-                background-size: cover;
-                margin-bottom: 155px;
-                /*Permet de  réduire la marge du bas de chaque photos pour que les elements du bas
-                         de chaque photos puissent s'aligner en dessous lorsqu'on réduit au fur et a mesure  l'écran*/
-            }
-            
-            .boutique .bout2 {
-                background-image: url("img/product1.jpg");
-                border: 2px solid burlywood;
-                background-position: bottom;
-                /*Pour bourger l'image du bacground*/
-                width: 200px;
-                height: 375px;
-                background-repeat: no-repeat;
-                background-size: cover;
-                margin-bottom: 155px;
-                /*Permet de  réduire la marge du bas de chaque photos pour que les elements du bas
-                        de chaque photos puissent s'aligner en dessous lorsqu'on réduit au fur et a mesure  l'écran*/
-            }
-            
-            .boutique .bout3 {
-                background-image: url("img/product6.jpg");
-                border: 2px solid burlywood;
-                background-position: bottom;
-                /*Pour bourger l'image du bacground*/
-                width: 200px;
-                height: 375px;
-                background-repeat: no-repeat;
-                background-size: cover;
-                margin-bottom: 155px;
-                /*Permet de  réduire la marge du bas de chaque photos pour que les elements du bas
-                          de chaque photos puissent s'aligner en dessous lorsqu'on réduit au fur et a mesure  l'écran*/
-            }
-            
-            .boutique .bout4 {
-                background-image: url("img/product2.jpg");
-                border: 2px solid burlywood;
-                background-position: bottom;
-                /*Pour bourger l'image du bacground*/
-                width: 200px;
-                height: 375px;
-                background-repeat: no-repeat;
-                background-size: cover;
-                margin-bottom: 155px;
-                /*Permet de  réduire la marge du bas de chaque photos pour que les elements du bas
-                         de chaque photos puissent s'aligner en dessous lorsqu'on réduit au fur et a mesure  l'écran*/
-            }
-            
-            .boutique .bout5 {
-                background-image: url("img/product4.jpg");
-                border: 2px solid burlywood;
-                background-position: bottom;
-                /*Pour bourger l'image du bacground*/
-                width: 200px;
-                height: 375px;
-                background-repeat: no-repeat;
-                background-size: cover;
-                margin-bottom: 155px;
-                /*Permet de  réduire la marge du bas de chaque photos pour que les elements du bas
-                         de chaque photos puissent s'aligner en dessous lorsqu'on réduit au fur et a mesure  l'écran*/
-            }
-            
-            .bout1 .coeur {
-                height: 50px;
-                position: relative;
-                left: 158px;
-            }
-            
-            .bout2 .coeur {
-                height: 50px;
-                position: relative;
-                left: 158px;
-            }
-            
-            .bout3 .coeur {
-                height: 50px;
-                position: relative;
-                left: 158px;
-            }
-            
-            .bout4 .coeur {
-                height: 50px;
-                position: relative;
-                left: 158px;
-            }
-            
-            .bout5 .coeur {
-                height: 50px;
-                position: relative;
-                left: 158px;
-            }
-            
-            .bout1 .pourcentage {
-                position: relative;
-                bottom: 68px;
-                left: 7px;
-                color: white;
-                font-weight: bold;
-                background-color: black;
-                width: 40px;
-            }
-            
-            .bout2 .pourcentage {
-                position: relative;
-                bottom: 68px;
-                left: 7px;
-                color: white;
-                font-weight: bold;
-                background-color: black;
-                width: 40px;
-            }
-            
-            .bout3 .pourcentage {
-                position: relative;
-                bottom: 68px;
-                left: 7px;
-                color: white;
-                font-weight: bold;
-                font-weight: bold;
-                background-color: black;
-                width: 40px;
-            }
-            
-            .bout4 .pourcentage {
-                position: relative;
-                bottom: 68px;
-                left: 7px;
-                color: white;
-                font-weight: bold;
-                background-color: black;
-                width: 40px;
-            }
-            
-            .bout5 .pourcentage {
-                position: relative;
-                bottom: 50px;
-                left: 7px;
-                color: white;
-                font-weight: bold;
-                background-color: black;
-                width: 40px;
-            }
-            
-            .boutique .group1 {
-                position: relative;
-                top: 285px;
-                background-color: white;
-                height: 117px;
-                /* Je diminue la hauteur du background-color*/
-            }
-            
-            .boutique .group2 {
-                position: relative;
-                top: 288px;
-                background-color: white;
-                height: 117px;
-                /* Je diminue la hauteur du background-color*/
-            }
-            
-            .boutique .group3 {
-                position: relative;
-                top: 306px;
-                background-color: white;
-                height: 117px;
-                /* Je diminue la hauteur du background-color*/
-            }
-            
-            .boutique .group4 {
-                position: relative;
-                top: 306px;
-                background-color: white;
-                height: 117px;
-                /* Je diminue la hauteur du background-color*/
-            }
-            
-            .boutique .group5 {
-                position: relative;
-                top: 288px;
-                background-color: white;
-                height: 117px;
-                /* Je diminue la hauteur du background-color*/
-            }
-            
-            section.boutique {
-                display: flex;
-                justify-content: center;
-                gap: 40px;
-                flex-wrap: wrap;
-                /*Pour que les images lorsqu'on les reduit elles passent en dessous des autres*/
-                background-color: rgb(247, 235, 221);
-                padding-top: 50px;
-                /*POUR REDUIRE ou augmenter LA MARGE DU HAUT DU PROJET 2 */
-                padding-bottom: 50px;
-                /*POUR REDUIRE ou augmenter LA MARGE DU BAS DU PROJET 2 */
-            }
-            
-            @media(min-width:0px) {
-                section.boutique {
-                    justify-content: center;
-                    margin-left: 0px;
-                    margin-right: 0px;
+                    * {
+                    margin: 0px;
+                    padding: 0px;
                 }
-                .bout1 .coeur {
-                    position: relative;
-                    left: 120px;
+                
+                .menu ul {
+                    list-style: none;
+                    padding-left: 0px;
+                    display: flex;
+                    justify-content: flex-end;
+                    pad: 10px;
                 }
-                .btn {
-                    margin-left: 0px;
+                
+                body nav {
+                    display: flex;
+                    justify-content: space-between;
+                    background-color: burlywood;
+                    position: sticky;
+                    top: 0%;
                 }
+                
                 body .menu ul a {
-                    font-size: 8px;
+                    text-decoration: none;
+                    display: flex;
+                    pad: 40px;
+                    color: rgb(0, 26, 173);
+                    margin-right: 20px;
+                    margin-top: 12px;
+                    border: 2px solid white;
+                    background-color: white;
+                    border-radius: 5px;
                 }
-                body .menu ul a {
-                    margin-right: 25px;
+                
+                body .menu ul a:hover {
+                    color: burlywood;
                 }
+                
+                .logo {
+                    width: 30;
+                    height: 50px;
+                    padding-left: 20px;
+                    margin-top: 2px;
+                    margin-bottom: 2px;
+                }
+                
+                .ban {
+                    display: flex;
+                    flex-direction: row;
+                    height: 800px;
+                    background-image: url("img/accueil.jpg");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    flex-wrap: wrap;
+                }
+                
+                section {
+                    background-size: cover;
+                }
+                /*BOUTIQUE 1*/
+                
                 section h1 {
-                    margin-right: 25px;
+                    font-family: 'Fjalla One', sans-serif;
+                    text-align: center;
+                    color: burlywood;
+                    font-size: 45px;
+                    margin-top: 35px;
                 }
-                html body section p {
-                    margin-right: 30px;
-                }
-                .bout1 .pourcentage {
-                    margin-top: 20px;
-                }
-                .bout1 .coeur {
-                    margin-left: 35px;
-                }
-                .bout2 .coeur2 {
-                    margin-left: 30px;
-                }
-                .boutique .bout1 {
-                    margin-right: 30px;
-                }
-                .boutique .bout2 {
-                    margin-right: 30px;
-                }
-                .boutique .bout3 {
-                    margin-right: 30px;
-                }
-                .boutique .bout4 {
-                    margin-right: 30px;
-                }
-                .boutique .bout5 {
-                    margin-right: 30px;
-                }
+                
                 .btn1 {
-                    padding-top: 0px;
+                    background-color: #e0cd30;
+                    border-radius: 10px;
+                    height: 30px;
+                    text-decoration: none;
+                    padding: 8px;
+                    color: rgb(9, 9, 161);
                 }
+                
                 .btn2 {
-                    padding-top: 0px;
+                    background-color: #e0cd30;
+                    border-radius: 10px;
+                    height: 30px;
+                    text-decoration: none;
+                    padding: 8px;
+                    color: rgb(9, 9, 161);
                 }
+                
                 .btn3 {
-                    padding-top: 0px;
+                    background-color: #e0cd30;
+                    border-radius: 10px;
+                    height: 30px;
+                    text-decoration: none;
+                    padding: 8px;
+                    color: rgb(9, 9, 161);
                 }
+                
                 .btn4 {
-                    padding-top: 0px;
+                    background-color: #e0cd30;
+                    border-radius: 10px;
+                    height: 30px;
+                    text-decoration: none;
+                    padding: 8px;
+                    color: rgb(9, 9, 161);
                 }
+                
                 .btn5 {
-                    padding-top: 0px;
+                    background-color: #e0cd30;
+                    border-radius: 10px;
+                    height: 30px;
+                    text-decoration: none;
+                    padding: 8px;
+                    color: rgb(9, 9, 161);
                 }
-                .bout2 .pourcentage {
-                    margin-top: 20px;
+                
+                .group1 a:hover {
+                    color: rgb(117, 68, 3);
                 }
+                
+                .group2 a:hover {
+                    color: rgb(117, 68, 3);
+                }
+                
+                .group3 a:hover {
+                    color: rgb(117, 68, 3);
+                }
+                
+                .group4 a:hover {
+                    color: rgb(117, 68, 3);
+                }
+                
+                .group5 a:hover {
+                    color: rgb(117, 68, 3);
+                }
+                
+                .boutique .bout1 {
+                    width: 290px;
+                    background-image: url("img/product0.jpeg");
+                    border: 2px solid burlywood;
+                    background-position: bottom;
+                    /*Pour bourger l'image du bacground*/
+                    width: 200px;
+                    height: 375px;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    margin-bottom: 155px;
+                    /*Permet de  réduire la marge du bas de chaque photos pour que les elements du bas
+                         de chaque photos puissent s'aligner en dessous lorsqu'on réduit au fur et a mesure  l'écran*/
+                }
+                
                 .boutique .bout2 {
-                    margin-right: 30px;
+                    background-image: url("img/product1.jpg");
+                    border: 2px solid burlywood;
+                    background-position: bottom;
+                    /*Pour bourger l'image du bacground*/
+                    width: 200px;
+                    height: 375px;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    margin-bottom: 155px;
+                    /*Permet de  réduire la marge du bas de chaque photos pour que les elements du bas
+                        de chaque photos puissent s'aligner en dessous lorsqu'on réduit au fur et a mesure  l'écran*/
                 }
+                
+                .boutique .bout3 {
+                    background-image: url("img/product6.jpg");
+                    border: 2px solid burlywood;
+                    background-position: bottom;
+                    /*Pour bourger l'image du bacground*/
+                    width: 200px;
+                    height: 375px;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    margin-bottom: 155px;
+                    /*Permet de  réduire la marge du bas de chaque photos pour que les elements du bas
+                          de chaque photos puissent s'aligner en dessous lorsqu'on réduit au fur et a mesure  l'écran*/
+                }
+                
+                .boutique .bout4 {
+                    background-image: url("img/product2.jpg");
+                    border: 2px solid burlywood;
+                    background-position: bottom;
+                    /*Pour bourger l'image du bacground*/
+                    width: 200px;
+                    height: 375px;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    margin-bottom: 155px;
+                    /*Permet de  réduire la marge du bas de chaque photos pour que les elements du bas
+                         de chaque photos puissent s'aligner en dessous lorsqu'on réduit au fur et a mesure  l'écran*/
+                }
+                
+                .boutique .bout5 {
+                    background-image: url("img/product4.jpg");
+                    border: 2px solid burlywood;
+                    background-position: bottom;
+                    /*Pour bourger l'image du bacground*/
+                    width: 200px;
+                    height: 375px;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    margin-bottom: 155px;
+                    /*Permet de  réduire la marge du bas de chaque photos pour que les elements du bas
+                         de chaque photos puissent s'aligner en dessous lorsqu'on réduit au fur et a mesure  l'écran*/
+                }
+                
+                .bout1 .coeur {
+                    height: 50px;
+                    position: relative;
+                    left: 158px;
+                }
+                
+                .bout2 .coeur {
+                    height: 50px;
+                    position: relative;
+                    left: 158px;
+                }
+                
+                .bout3 .coeur {
+                    height: 50px;
+                    position: relative;
+                    left: 158px;
+                }
+                
+                .bout4 .coeur {
+                    height: 50px;
+                    position: relative;
+                    left: 158px;
+                }
+                
+                .bout5 .coeur {
+                    height: 50px;
+                    position: relative;
+                    left: 158px;
+                }
+                
+                .bout1 .pourcentage {
+                    position: relative;
+                    bottom: 68px;
+                    left: 7px;
+                    color: white;
+                    font-weight: bold;
+                    background-color: black;
+                    width: 40px;
+                }
+                
+                .bout2 .pourcentage {
+                    position: relative;
+                    bottom: 68px;
+                    left: 7px;
+                    color: white;
+                    font-weight: bold;
+                    background-color: black;
+                    width: 40px;
+                }
+                
                 .bout3 .pourcentage {
                     position: relative;
-                    bottom: 50px;
+                    bottom: 68px;
+                    left: 7px;
+                    color: white;
+                    font-weight: bold;
+                    font-weight: bold;
+                    background-color: black;
+                    width: 40px;
                 }
+                
                 .bout4 .pourcentage {
                     position: relative;
-                    bottom: 50px;
-                }
-                .ban {
-                    height: 700px;
-                }
-                body .menu ul a {
-                    margin-right: 1px;
-                }
-                .logo {
-                    padding-left: 0;
-                }
-                .menu ul {
-                    display: contents;
-                }
-                .boutique .bout6 {
-                    margin-left: 80px;
-                }
-                .boutique .bout7 {
-                    margin-left: 80px;
-                }
-                .boutique .bout8 {
-                    margin-left: 80px;
-                }
-                .boutique .bout9 {
-                    margin-left: 80px;
-                }
-                /*BOUTIQUE2*/
-                .btnheader {
-                    border: 3px solid white;
+                    bottom: 68px;
+                    left: 7px;
                     color: white;
-                    border-radius: 5px;
-                    height: 20px;
-                    text-decoration: none;
-                    position: relative;
-                    top: 300px;
-                    width: 103px;
-                    display: flex;
-                    justify-content: center;
+                    font-weight: bold;
+                    background-color: black;
+                    width: 40px;
                 }
-                .main {
+                
+                .bout5 .pourcentage {
+                    position: relative;
+                    bottom: 50px;
+                    left: 7px;
+                    color: white;
+                    font-weight: bold;
+                    background-color: black;
+                    width: 40px;
+                }
+                
+                .boutique .group1 {
+                    position: relative;
+                    top: 285px;
+                    background-color: white;
+                    height: 117px;
+                    /* Je diminue la hauteur du background-color*/
+                }
+                
+                .boutique .group2 {
+                    position: relative;
+                    top: 288px;
+                    background-color: white;
+                    height: 117px;
+                    /* Je diminue la hauteur du background-color*/
+                }
+                
+                .boutique .group3 {
+                    position: relative;
+                    top: 306px;
+                    background-color: white;
+                    height: 117px;
+                    /* Je diminue la hauteur du background-color*/
+                }
+                
+                .boutique .group4 {
+                    position: relative;
+                    top: 306px;
+                    background-color: white;
+                    height: 117px;
+                    /* Je diminue la hauteur du background-color*/
+                }
+                
+                .boutique .group5 {
+                    position: relative;
+                    top: 288px;
+                    background-color: white;
+                    height: 117px;
+                    /* Je diminue la hauteur du background-color*/
+                }
+                
+                section.boutique {
                     display: flex;
                     justify-content: center;
+                    gap: 40px;
                     flex-wrap: wrap;
+                    /*Pour que les images lorsqu'on les reduit elles passent en dessous des autres*/
                     background-color: rgb(247, 235, 221);
-                    gap: 10px;
-                    width: 100%;
                     padding-top: 50px;
                     /*POUR REDUIRE ou augmenter LA MARGE DU HAUT DU PROJET 2 */
-                    padding-bottom: 30px;
+                    padding-bottom: 50px;
                     /*POUR REDUIRE ou augmenter LA MARGE DU BAS DU PROJET 2 */
                 }
-                .reglerimg {
-                    background-repeat: no-repeat;
-                    background-size: cover;
-                    width: 185px;
-                    height: 200px;
-                    margin-bottom: 60px;
-                }
-                .titre {
-                    font-size: 68px;
-                    position: relative;
-                    top: 40px;
-                    display: flex;
-                    justify-content: center;
-                    text-decoration: solid;
-                    /* Pour designer le mode*/
-                    font-family: 'Londrina Shadow', cursive;
-                }
-                .img1 {
-                    background-image: url("img/product1.jpg");
-                    background-repeat: no-repeat;
-                    background-size: cover;
-                }
-                .img2 {
-                    background-image: url("img/product9.jpg");
-                    background-repeat: no-repeat;
-                    background-size: cover;
-                }
-                .img3 {
-                    background-image: url("img/product6.jpg");
-                    background-repeat: no-repeat;
-                    background-size: cover;
-                }
-                .img4 {
-                    background-image: url("img/product10.jpg");
-                    background-repeat: no-repeat;
-                    background-size: cover;
-                }
-                .main .group6 {
-                    position: relative;
-                    top: 183px;
-                    background-color: white;
-                }
-                .main .group7 {
-                    position: relative;
-                    top: 183px;
-                    background-color: white;
-                }
-                .main .group8 {
-                    position: relative;
-                    top: 183px;
-                    background-color: white;
-                }
-                .main .group9 {
-                    position: relative;
-                    top: 190px;
-                    background-color: white;
-                }
-                .btn {
-                    text-decoration: none;
-                    border: 3px solid black;
-                    color: black;
-                    font-size: 20px;
-                    position: relative;
-                    bottom: 43px;
-                    display: flex;
-                    justify-content: center;
-                    font-family: 'Fjalla One', sans-serif;
-                }
-                .footer {
-                    background-color: burlywood;
-                    font-family: 'Fjalla One', sans-serif;
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: space-around;
-                    padding-bottom: 40px;
-                }
+                
+                @media(min-width:0px) {
+                    section.boutique {
+                        justify-content: center;
+                        margin-left: 0px;
+                        margin-right: 0px;
+                    }
+                    .bout1 .coeur {
+                        position: relative;
+                        left: 120px;
+                    }
+                    .btn {
+                        margin-left: 0px;
+                    }
+                    body .menu ul a {
+                        font-size: 8px;
+                    }
+                    body .menu ul a {
+                        margin-right: 25px;
+                    }
+                    section h1 {
+                        margin-right: 25px;
+                    }
+                    html body section p {
+                        margin-right: 30px;
+                    }
+                    .bout1 .pourcentage {
+                        margin-top: 20px;
+                    }
+                    .bout1 .coeur {
+                        margin-left: 35px;
+                    }
+                    .bout2 .coeur2 {
+                        margin-left: 30px;
+                    }
+                    .boutique .bout1 {
+                        margin-right: 30px;
+                    }
+                    .boutique .bout2 {
+                        margin-right: 30px;
+                    }
+                    .boutique .bout3 {
+                        margin-right: 30px;
+                    }
+                    .boutique .bout4 {
+                        margin-right: 30px;
+                    }
+                    .boutique .bout5 {
+                        margin-right: 30px;
+                    }
+                    .btn1 {
+                        padding-top: 0px;
+                    }
+                    .btn2 {
+                        padding-top: 0px;
+                    }
+                    .btn3 {
+                        padding-top: 0px;
+                    }
+                    .btn4 {
+                        padding-top: 0px;
+                    }
+                    .btn5 {
+                        padding-top: 0px;
+                    }
+                    .bout2 .pourcentage {
+                        margin-top: 20px;
+                    }
+                    .boutique .bout2 {
+                        margin-right: 30px;
+                    }
+                    .bout3 .pourcentage {
+                        position: relative;
+                        bottom: 50px;
+                    }
+                    .bout4 .pourcentage {
+                        position: relative;
+                        bottom: 50px;
+                    }
+                    .ban {
+                        height: 700px;
+                    }
+                    body .menu ul a {
+                        margin-right: 1px;
+                    }
+                    .logo {
+                        padding-left: 0;
+                    }
+                    .menu ul {
+                        display: contents;
+                    }
+                    .boutique .bout6 {
+                        margin-left: 80px;
+                    }
+                    .boutique .bout7 {
+                        margin-left: 80px;
+                    }
+                    .boutique .bout8 {
+                        margin-left: 80px;
+                    }
+                    .boutique .bout9 {
+                        margin-left: 80px;
+                    }
+                    /*BOUTIQUE2*/
+                    .btnheader {
+                        border: 3px solid white;
+                        color: white;
+                        border-radius: 5px;
+                        height: 20px;
+                        text-decoration: none;
+                        position: relative;
+                        top: 300px;
+                        width: 103px;
+                        display: flex;
+                        justify-content: center;
+                    }
+                    .main {
+                        display: flex;
+                        justify-content: center;
+                        flex-wrap: wrap;
+                        background-color: rgb(247, 235, 221);
+                        gap: 10px;
+                        width: 100%;
+                        padding-top: 50px;
+                        /*POUR REDUIRE ou augmenter LA MARGE DU HAUT DU PROJET 2 */
+                        padding-bottom: 30px;
+                        /*POUR REDUIRE ou augmenter LA MARGE DU BAS DU PROJET 2 */
+                    }
+                    .reglerimg {
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        width: 185px;
+                        height: 200px;
+                        margin-bottom: 60px;
+                    }
+                    .titre {
+                        font-size: 68px;
+                        position: relative;
+                        top: 40px;
+                        display: flex;
+                        justify-content: center;
+                        text-decoration: solid;
+                        /* Pour designer le mode*/
+                        font-family: 'Londrina Shadow', cursive;
+                    }
+                    .img1 {
+                        background-image: url("img/product1.jpg");
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+                    .img2 {
+                        background-image: url("img/product9.jpg");
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+                    .img3 {
+                        background-image: url("img/product6.jpg");
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+                    .img4 {
+                        background-image: url("img/product10.jpg");
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+                    .main .group6 {
+                        position: relative;
+                        top: 183px;
+                        background-color: white;
+                    }
+                    .main .group7 {
+                        position: relative;
+                        top: 183px;
+                        background-color: white;
+                    }
+                    .main .group8 {
+                        position: relative;
+                        top: 183px;
+                        background-color: white;
+                    }
+                    .main .group9 {
+                        position: relative;
+                        top: 190px;
+                        background-color: white;
+                    }
+                    .btn {
+                        text-decoration: none;
+                        border: 3px solid black;
+                        color: black;
+                        font-size: 20px;
+                        position: relative;
+                        bottom: 43px;
+                        display: flex;
+                        justify-content: center;
+                        font-family: 'Fjalla One', sans-serif;
+                    }
+                    .footer {
+                        background-color: burlywood;
+                        font-family: 'Fjalla One', sans-serif;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-around;
+                        padding-bottom: 40px;
+                    }
